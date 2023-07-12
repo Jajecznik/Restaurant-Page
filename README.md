@@ -8,13 +8,13 @@ Just open the `index.html` file in a web browser.
 ## Assignment
 
 1. Start the project the same way you began the webpack tutorial project.
- 1. run `npm init` in your project directory to generate a package.json file.
+ 1) run `npm init` in your project directory to generate a package.json file.
 
- 2. run `npm install webpack webpack-cli --save-dev` to install webpack to the node_modules directory of your project.
+ 2) run `npm install webpack webpack-cli --save-dev` to install webpack to the node_modules directory of your project.
 
  - Quick tip: `the node_modules` folder can get really big. It is customary to add a `.gitignore` file to your project so that you don’t have to sync the contents of `node_modules` to github. The dependencies that are stored there can be installed from your package.json by running `npm install`, so you don’t need to sync them.
 
- 3. Create a `src` and `dist` directory with the following contents:
+ 3) Create a `src` and `dist` directory with the following contents:
 
  - an 1index.js1 file in `src`
 
